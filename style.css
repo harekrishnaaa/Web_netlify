@@ -1,0 +1,43 @@
+body {
+  background-image: url("bg1.jpg");
+}
+.frm {
+  width: 150px;
+  height: 150px;
+  padding: 75px;
+  border: 4px solid;
+  font-size: large;
+  text-align: justify;
+}
+legend {
+  text-align: center;
+  right: 10px;
+}
+.password {
+  width: 150px;
+  height: 20px;
+  border-radius: 5px;
+  /* margin-top: 20px; */
+}
+.username {
+  width: 150px;
+  height: 20px;
+  border-radius: 5px;
+  /* margin-top: 20px; */
+}
+.sub {
+  width: 85px;
+  height: 30px;
+  margin-top: 20px;
+  border-radius: 5px;
+  background-color: blueviolet;
+}
+.pss {
+  margin-top: 20px;
+}
+.sub:hover {
+  background-color: aqua;
+}
+.usr {
+  margin-top: 20px;
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="style.css">
+	<script src="app.js"></script>
+	<script>
+
+		document.onkeydown = function (e) {
+			if (event.keyCode == 123) {
+				return false;
+			}
+			if (e.ctrlKey && e.shiftKey && (e.keyCode == 'I'.charCodeAt(0) || e.keyCode == 'i'.charCodeAt(0))) {
+				return false;
+			}
+			if (e.ctrlKey && e.shiftKey && (e.keyCode == 'C'.charCodeAt(0) || e.keyCode == 'c'.charCodeAt(0))) {
+				return false;
+			}
+			if (e.ctrlKey && e.shiftKey && (e.keyCode == 'J'.charCodeAt(0) || e.keyCode == 'j'.charCodeAt(0))) {
+				return false;
+			}
+			if (e.ctrlKey && (e.keyCode == 'U'.charCodeAt(0) || e.keyCode == 'u'.charCodeAt(0))) {
+				return false;
+			}
+			if (e.ctrlKey && (e.keyCode == 'S'.charCodeAt(0) || e.keyCode == 's'.charCodeAt(0))) {
+				return false;
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false;">
+	<h1>HTML FORM</h1>
+
+	Hare Krishna
+
+
+
+	<form action="index.html" method="post">
+		<fieldset class="frm">
+			<legend>Sign Up Form</legend>
+			<label class="usr" for="name">Username</label>
+			<input class="username" type="text" placeholder="Enter your username" id="name" name="name" required><br>
+			<label class="pss" for="pass">Password</label>
+			<input class="password" type="password" placeholder="Enter your password" id="pass" name="pass"
+				required><br>
+
+			<input class="sub" type="submit" onclick="validate()" value="Login">
+		</fieldset>
+	</form>
+	</p>
+	<h4>
+		<p>
+			Username- harekrishna<br>
+			Password- 123456789<br>
+		</p>
+	</h4>
+
+</body>
+
+</html>
