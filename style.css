@@ -66,3 +66,9 @@ legend {
   text-decoration: none;
   color: white;
 }
+#btnc {
+  color: blue;
+}
+#btnc:hover {
+  color: aquamarine;
+}
