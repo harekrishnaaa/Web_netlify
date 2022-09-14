@@ -67,7 +67,7 @@ legend {
   color: white;
 }
 #btnc {
-  color: blue;
+  background-color: rgb(93, 93, 198);
 }
 #btnc:hover {
   color: aquamarine;
